@@ -22,7 +22,7 @@ public class Main {
 		}*/
 		
 		//LINKEDQUEUE PART
-		Queue<Integer> myQueue=new Queue<Integer>();
+		/*Queue<Integer> myQueue=new Queue<Integer>();
 		myQueue.enqueue(1);
 		myQueue.enqueue(2);
 		myQueue.enqueue(3);
@@ -32,7 +32,21 @@ public class Main {
 			System.out.print("<--"+ite.next());
 		}
 		System.out.println();
-		System.out.println("Peek:"+myQueue.peek());
+		System.out.println("Peek:"+myQueue.peek());*/
+		
+		//LINKENDSTACK PART
+		Stack<Integer> myStack=new Stack<Integer>();
+		for(int i=0;i<5;i++){
+			myStack.push(i);
+		}
+		System.out.println("POP:"+myStack.pop());
+		System.out.println("PEEK:"+myStack.peek());
+		Iterator<Integer> ite=myStack.iterator();
+		while(ite.hasNext()){
+			System.out.println(ite.next());
+			System.out.println("|");
+		}
+		
 	}
 
 }
