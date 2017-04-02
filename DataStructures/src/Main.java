@@ -35,7 +35,7 @@ public class Main {
 		System.out.println("Peek:"+myQueue.peek());*/
 		
 		//LINKENDSTACK PART
-		Stack<Integer> myStack=new Stack<Integer>();
+		/*Stack<Integer> myStack=new Stack<Integer>();
 		for(int i=0;i<5;i++){
 			myStack.push(i);
 		}
@@ -45,7 +45,35 @@ public class Main {
 		while(ite.hasNext()){
 			System.out.println(ite.next());
 			System.out.println("|");
-		}
+		}*/
+		
+		//BINARYTREE PART
+		BinaryTree<Integer> br=new BinaryTree<Integer>();
+		
+		//insert
+		br.insert(23);
+		br.insert(4);
+		br.insert(67);
+		br.insert(56);
+		br.insert(89);
+		br.insert(10);
+		
+		//traversals
+		br.preOrder();
+		System.out.println();
+		br.inOrder();
+		System.out.println();
+		br.postOrder();
+		
+		//Finding min in Binary Tree
+		System.out.println();
+		System.out.println(br.findMin());
+		//Finding max in Binary Tree
+		System.out.println(br.findMax());
+		
+		//delete
+		System.out.println(br.delete(67));
+		br.inOrder();
 		
 	}
 
