@@ -11,9 +11,9 @@ public class BinaryTree <T extends Comparable<T>>{
 		}
 	}
 	/*--------------------
-	 * 					 | 
-	 * 		INSERT		 |	
-	 * 					 |
+	 * 			| 
+	 * 	INSERT		|	
+	 * 			|
 	 * -------------------
 	 */
 	public void insert(T data){
@@ -26,9 +26,9 @@ public class BinaryTree <T extends Comparable<T>>{
 		return node;	
 	}
 	/*--------------------
-	 * 					 | 
-	 * 		DELETE		 |	
-	 * 					 |
+	 * 			| 
+	 * 	DELETE		|	
+	 * 			|
 	 * -------------------
 	 */
 	public Node<T> delete(T data){
@@ -47,9 +47,9 @@ public class BinaryTree <T extends Comparable<T>>{
 		return node;
 	}
 	/*--------------------
-	 * 					 | 
-	 * 		FIND(min,max)|	
-	 * 					 |
+	 * 		     	| 
+	 * 	FIND(min,max)	|	
+	 * 		     	|
 	 * -------------------
 	 */
 	public Node<T> find(T data){
@@ -90,9 +90,9 @@ public class BinaryTree <T extends Comparable<T>>{
 	}
 	
 	/*--------------------
-	 * 					 | 
-	 * 		TRAVERSALS	 |	
-	 * 					 |
+	 * 			 | 
+	 * 	TRAVERSALS	 |	
+	 * 			 |
 	 * -------------------
 	 */
 	public void preOrder(){
