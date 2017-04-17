@@ -21,7 +21,7 @@ public class Main {
 			System.out.println(ite.next());
 		}*/
 		
-		//LINKEDQUEUE PART
+		//QUEUE PART
 		/*Queue<Integer> myQueue=new Queue<Integer>();
 		myQueue.enqueue(1);
 		myQueue.enqueue(2);
@@ -34,7 +34,7 @@ public class Main {
 		System.out.println();
 		System.out.println("Peek:"+myQueue.peek());*/
 		
-		//LINKENDSTACK PART
+		//STACK PART
 		/*Stack<Integer> myStack=new Stack<Integer>();
 		for(int i=0;i<5;i++){
 			myStack.push(i);
@@ -48,7 +48,7 @@ public class Main {
 		}*/
 		
 		//BINARYTREE PART
-		BinaryTree<Integer> br=new BinaryTree<Integer>();
+		/*BinaryTree<Integer> br=new BinaryTree<Integer>();
 		
 		//insert
 		br.insert(23);
@@ -73,7 +73,20 @@ public class Main {
 		
 		//delete
 		System.out.println(br.delete(67));
-		br.inOrder();
+		br.inOrder();*/
+		
+		//AVLtree PART
+		AVLtree tree=new AVLtree();
+		tree.insert(95);
+		tree.insert(85);
+		tree.insert(65);
+		tree.insert(45);
+		tree.insert(100);
+		tree.insert(70);
+		tree.insert(10);
+		tree.insert(50);
+		tree.insert(20);
+		tree.inOrder();
 		
 	}
 
