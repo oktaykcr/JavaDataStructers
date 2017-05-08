@@ -76,7 +76,7 @@ public class Main {
 		br.inOrder();*/
 		
 		//AVLtree PART
-		AVLtree tree=new AVLtree();
+		/*AVLtree tree=new AVLtree();
 		tree.insert(95);
 		tree.insert(85);
 		tree.insert(65);
@@ -86,7 +86,17 @@ public class Main {
 		tree.insert(10);
 		tree.insert(50);
 		tree.insert(20);
-		tree.inOrder();
+		tree.inOrder();*/
+		
+		//HEAP PART
+		Heap<Integer> heap=new Heap<>();
+		heap.insert(45);
+		heap.insert(23);
+		heap.insert(2);
+		heap.insert(1);
+		heap.insert(15);
+		
+		heap.displayHeap();
 		
 	}
 
