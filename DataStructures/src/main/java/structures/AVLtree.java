@@ -1,3 +1,4 @@
+package structures;
 
 public class AVLtree {
 	private static class Node{

@@ -1,3 +1,4 @@
+package structures;
 
 public class Heap<T extends Comparable<T>> {
 	private static final int CAPACITY=100;
